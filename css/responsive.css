@@ -1,0 +1,68 @@
+@media only screen and (max-width: 1071px) {
+    .profile-main-pic {
+        height: 450px;
+    }
+
+    .project-front-title,
+    .project-front-desc {
+       font-size: 80%;
+    }
+
+    .project-back 
+    .project-content-back-title {
+       font-size: 100%;
+    }
+
+    .project-content-back-vocabmeter {
+       font-size: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 901px) {
+    .profile-main-pic {
+        height: 350px;
+    }
+
+    .project-back {
+        border-radius: 0% 25% 0%  25%;
+    }
+}
+
+@media only screen and (max-width: 611px) {
+    .logo {
+        width: 30px;
+        height: 30px;
+    }
+
+    .profile-pic {
+        width: 25px;
+        height: 25px;
+    }
+
+    .header-photo-name-title {
+        font-size: 75%;
+    }
+
+    .profile-main-pic {
+        height: 240px;
+    }
+
+    .project-back {
+        border-radius: 50%;
+    }
+
+    .container-showcase {
+        flex-direction: column;
+    }
+
+    .project {
+        width: 100%;
+        margin: 0 0 15px 0;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .profile-description {
+        font-size: 80%;
+    }
+}
